@@ -1,0 +1,104 @@
+* {
+    font-family: "Tiny5", sans-serif;
+    font-size: 18px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    background-color: #3C096C;
+    background-image: url("/public/imagines/fondo.png") ;
+    color: #E0AAFF;
+}
+
+h1 {
+    color: #9D4EDD;
+    font-size: 25px;
+}
+
+.title-main {
+    text-align: center;
+    color: #9D4EDD;
+    font-size: 60px;
+}
+
+.magic-ball-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    height: 28em;
+}
+
+.description {
+    border-style: double;
+    border-color: #9D4EDD;
+    border-width: 10px;
+    margin: 0 7em 0 7em;
+    padding: 30px;
+    width: 25%;
+    height: fit-content;
+    background-color: #5A189A;
+}
+
+
+.instructions {
+    border-style: double ;
+    border-color: #9D4EDD;
+    border-width: 10px;
+    align-content: revert;
+    margin: 0 7em 0 7em;
+    padding: 30px;
+    width: 25%;
+    height: fit-content;
+    background-color: #5A189A ;
+}
+
+.arrow-div {
+    display: grid;
+    text-align: center;
+}
+
+.arrow-button {
+    border: none;
+    background-color: transparent;
+}
+.input-div{
+    display: flex;
+    justify-content: center;
+}
+.text-area {
+    resize: none;
+    width: 500px;
+    height: 125px;
+    background-color: #E0AAFF;
+    border: 10px double #7B2CBF;
+}
+.result-button {
+    height: 139px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #E0AAFF;
+    background-color: #7B2CBF;
+    border: none;
+    box-shadow: 0 9px #C77DFF;
+}
+.result-button:active {
+    background-color: #5A189A;
+    box-shadow: 0 5px #9D4EDD;
+    transform: translateY(4px);
+}
