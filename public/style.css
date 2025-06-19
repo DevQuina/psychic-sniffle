@@ -13,7 +13,7 @@ header {
 
 body {
     background-color: #3C096C;
-    background-image: url(/public/imagines/fondo.png) ;
+    background-image: url("../public/imagines/fondo.png");
     color: #E0AAFF;
 }
 
